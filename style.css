@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+.menu {
+  list-style: none;
+  padding: 0;
+  margin-left: 50px;
+}
+.menu li {
+  margin-right: 20px;
+  display: inline-block;
+}
+.menu li a {
+  text-decoration: none;
+  color: rgb(13, 9, 217); /* Couleur du texte du lien */
+  font-size: 15px;
+}
+h1 {
+  font-size: 70px;
+}
+section {
+  text-align: center;
+  display: inline-block;
+}
+.bloc1,
+.bloc2 {
+  display: inline-block;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.bloc1 {
+  float: left;
+  background-color: #f7f7f7;
+  color: #333;
+}
+.bloc2 {
+  float: right;
+}
+video {
+  width: 100%;
+  height: auto;
+}
+#propos img {
+  float: left;
+  width: 35%;
+  margin-bottom: 25px;
+}
+#propos p {
+  background-color: #f7f7f7;
+  font-size: 16px;
+  color: #333;
+  width: 50%; /* ou une autre largeur selon vos besoins */
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  float: right;
+  padding: 10%;
+}
+#projets img {
+  width: 20%;
+  height: auto;
+}
+#contact{
+  width: 50%;
+  margin-left: 30%;
+}
+form {
+  margin-bottom: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  padding: 25px;
+}
+footer {
+  background-color: black;
+  max-width: 1200px;
+  color: #fff;
+  padding: 20px;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(16, 4, 123);
+}
+
+/* mouse over element */
+div:hover {
+  color: rgb(16, 4, 123);
+}
+
+/* selected link */
+.menu a:active {
+  color: #101011;
+}
